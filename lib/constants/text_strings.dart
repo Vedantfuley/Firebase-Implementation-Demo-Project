@@ -17,3 +17,9 @@ const String Signup = 'Signup';
 
 const String Title1 = 'Login/Signup';
 const String Subtitle = "Let's put your creativity on the development highway";
+
+
+const String LoginTitle = 'Welcome Back';
+const String LoginSubtitle = "Destiny is not a matter of chance it is a matter of choice";
+const String Me = 'Remeber Me?';
+const String Account = "Already have an Account";

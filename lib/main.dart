@@ -4,7 +4,7 @@ import 'package:firebase/themes/theme.dart';
 
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'pages/loginpage.dart';
+import 'screens/login/login_screen.dart';
 
 void main() {
   runApp(GetMaterialApp(
