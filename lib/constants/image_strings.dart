@@ -9,3 +9,7 @@ const String Image3 = 'img/blue-removebg-preview.png';
 
 const String Welcome = 'img/Welcome.jpg';
 const String Google = 'img/1024px-Google__G__Logo.jpg';
+
+const String WelcomeScreenPage = 'img/4845895-removebg-preview.png';
+
+const String Forget = '4841115-removebg-preview.png';

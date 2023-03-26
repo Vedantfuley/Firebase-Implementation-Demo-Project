@@ -16,9 +16,10 @@ class LoginHeaderWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Image(image: AssetImage(Welcome), height: size.height * 0.2),
-        Center(child: Text(LoginTitle, style: TextStyle(fontSize: 50,fontFamily: 'Great_Vibes'))),
-        Center(child: Text(LoginSubtitle, style: TextStyle(fontSize: 19),textAlign: TextAlign.center,)),
+        Center(child: Image(image: AssetImage(Welcome), height: size.height * 0.2)),
+        SizedBox(height: 20,),
+        Center(child: Text('Login', style: TextStyle(fontSize: 50,fontFamily: 'Great_Vibes'))),
+
       ],
     );
   }

@@ -1,4 +1,5 @@
 import 'package:firebase/pages/loading.dart';
+import 'package:firebase/screens/signup/signup_screen.dart';
 import 'package:firebase/screens/splash%20screen/splash_screen.dart';
 import 'package:firebase/themes/theme.dart';
 
@@ -10,8 +11,12 @@ void main() {
   runApp(GetMaterialApp(
       theme: AppTheme.LightTheme,
     darkTheme: AppTheme.DarkTheme,
-    themeMode: ThemeMode.system,
+    themeMode: ThemeMode.light,
     home: SplashScreens(),
+    routes: {
+        '/signupscreen': (context) => const SignUpScreen(),
+        '/Login' : (context) => const LoginScreen(),
+    }
 
   ));
 }

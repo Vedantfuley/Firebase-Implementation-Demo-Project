@@ -62,7 +62,9 @@ class WelcomeScreen extends StatelessWidget {
                           child: Text(Login.toUpperCase()))),
                       const SizedBox(width: 10),
                       Expanded(child: ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.pushNamed(context, '/signupscreen');
+                          },
                           style: ElevatedButton.styleFrom(
                             elevation: 0,
                               shape: RoundedRectangleBorder(),
